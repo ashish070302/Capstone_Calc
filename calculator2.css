@@ -1,0 +1,32 @@
+.calculator{
+	border:8px solid #a91ac2;
+	width: 280px;
+	box-sizing: border-box;
+	margin: 80px auto 0;
+	font-family: verdana;
+    margin-top: 150px;
+}
+.calculator .form-control{
+	height: 80px;
+    width: 450px;
+    background-color: #000000;
+    margin-left: 70px;
+    box-sizing: border-box;
+    
+}
+.calculator .form-group{
+	margin-bottom: 10px;
+}
+.calculator input[type=text]{
+	font-size: 1.5rem;
+	color:#ffffff;
+}
+.calculator .btn {
+	font-size: 1.5rem;
+	color:#000000;
+	width: 80px;
+    border-radius: 100px;
+}
+.calculator .btn-op {
+	background-color: #a91ac2;
+}

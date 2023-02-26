@@ -1,0 +1,154 @@
+<h1>Calculator
+
+    <style>
+        h1 {color: rgb(177, 198, 149);
+        font-style: bold;
+    font-size: 50px;
+text-align: center;}
+
+    </style>
+</h1>
+<h4>Let's calculate your calculation!
+    <style>
+        h4 {color: rgb(252, 252, 252);
+        font-style: normal;
+    font-size: 30px;
+text-align: center;}
+</style>
+</h4>
+
+<table class="calculator table">
+    <style>
+        body {background-color: rgb(0, 0, 0);}
+    </style>
+    <thead>			
+        <tr>
+            <td colspan=7>
+                <div class="output form-group">
+                    <input type="text" class="ans form-control" readonly name="">
+                </div>				
+            </td>
+        </tr>
+    </thead>
+
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="calculator2.css">
+
+
+    <tbody class="actions">		
+        <tr>
+            <td colspan=3></td>
+            <td>
+                <button class="btn btn-op" data-value='*('>(</button>				
+    
+            </td>
+            <td>
+                <button class="btn btn-op" data-value=')'>)</button>				
+    
+            </td>
+            <td>
+                <button class="btn btn-op" data-value='%'>%</button>			
+    
+            </td>
+            <td>
+                <button class="btn btn-op" data-value='ce'>CE</button>				
+    
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn btn-op" data-value='inv'>Inv</button>				
+            </td>
+            <td>
+                <button class="btn btn-op" data-value='sin'>sin</button>			
+            </td>
+            <td>
+                <button class="btn btn-op" data-value='ln'>ln</button>				
+            </td>
+            <td>
+                <button class="btn" data-value='7'>7</button>
+            </td>
+            <td>
+                <button class="btn" data-value='8'>8</button>				
+            </td>
+            <td>
+                <button class="btn" data-value='9'>9</button>				
+            </td>
+            <td>
+                <button class="btn btn-op" data-value='/'>÷</button>				
+    
+            </td>
+        </tr>			
+        <tr>
+            <td>
+                <button class="btn btn-op" data-value='*3.14'>π</button>				
+            </td>
+            <td>
+                <button class="btn btn-op" data-value='cos'>cos</button>			
+            </td>
+            <td>
+                <button class="btn btn-op" data-value='log'>log</button>				
+            </td>
+            <td>
+                <button class="btn" data-value='4'>4</button>
+            </td>
+            <td>
+                <button class="btn" data-value='5'>5</button>				
+            </td>
+            <td>
+                <button class="btn" data-value='6'>6</button>				
+            </td>
+            <td>
+                <button class="btn btn-op" data-value='*'>	×</button>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <button class="btn btn-op" data-value='e'>e</button>				
+            </td>
+            <td>
+                <button class="btn btn-op" data-value='tan'>tan</button>			
+            </td>
+            <td>
+                <button class="btn btn-op" data-value='radic'>√</button>				
+            </td>
+            <td>
+                <button class="btn" data-value='3'>3</button>
+            </td>
+            <td>
+                <button class="btn" data-value='2'>2</button>				
+            </td>
+            <td>
+                <button class="btn" data-value='1'>1</button>				
+            </td>
+            <td>
+                <button class="btn btn-op" data-value='-'>-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn btn-op" data-value='exp'>EXP</button>			
+            </td>
+            <td>
+                <button class="btn btn-op" data-value='x^2'>x²</button>				
+            </td>
+            <td>
+                <button class="btn btn-op" data-value='**'>x^</button>		
+            </td>
+            <td>
+                <button class="btn btn-op" data-value='.'>.</button>
+            </td>
+            <td>
+                <button class="btn" data-value='0'>0</button>				
+            </td>
+            <td>
+                <button class="btn btn-op" data-value='='>=</button>				
+            </td>
+            <td>
+                <button class="btn btn-op" data-value='+'>+</button>
+            </td>
+        </tr>
+    </tbody>
+    </table>
+<script type="text/javascript" src="Calc.js"></script>
+
